@@ -1,0 +1,7 @@
+store_news_homepage:
+    path:     /news
+    defaults: { _controller: StoreNewsBundle:News:index}
+
+
+
+

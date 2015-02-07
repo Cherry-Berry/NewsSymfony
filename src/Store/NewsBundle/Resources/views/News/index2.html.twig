@@ -1,0 +1,31 @@
+<html>
+    <head>
+        {# News #}
+
+            {% block stylesheets %}
+            <link href="{{ asset('/css/main.css') }}" type="text/css" rel="stylesheet" />
+        {% endblock %}
+    </head>
+    <body bgcolor="#CCFFCC">
+<style>
+   
+	body {
+	margin-top: 100px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	}
+	
+  </style>
+
+        <h1>{{onenew.title}}</h1><br>
+        <p>{{onenew.content}}</p>
+
+        {% block javascripts %}
+            <script src="{{ asset('/js/main.js') }}" type="text/javascript"></script>
+        {% endblock %}
+    </body>
+</html>
+
+
+

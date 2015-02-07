@@ -1,0 +1,11 @@
+store_hello_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: StoreNewsBundle:Default:index }
+
+store_news_homepage:
+    path:     /news
+    defaults: { _controller: StoreNewsBundle:News:index}
+
+store_onenew_homepage:
+    path:     /onenew/{slug}
+    defaults: { _controller: StoreNewsBundle:News:article}

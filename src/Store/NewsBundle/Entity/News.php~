@@ -1,0 +1,13 @@
+<?php
+
+namespace Store\NewsBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * News
+ */
+class News
+{
+    
+}
